@@ -42,7 +42,7 @@ void strjoin2(char* d,char* o1,char* o2)
         d[j] = o2[i];
         j++;
     }
-    
+    d[j] = o1[i];
 }
 
 int main (void){
